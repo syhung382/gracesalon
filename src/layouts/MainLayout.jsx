@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import FloatingContact from "../components/FloatingContact";
 
 /**
  * MainLayout — wraps all pages with shared Navbar + Footer.
@@ -10,6 +11,7 @@ export default function MainLayout({ children }) {
       <Navbar />
       <main>{children}</main>
       <Footer />
+      <FloatingContact />
     </>
   );
 }

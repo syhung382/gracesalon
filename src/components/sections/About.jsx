@@ -33,7 +33,7 @@ function StatCard({ value, label }) {
 
 export default function About() {
   return (
-    <section id="about" style={{ padding: "120px 56px", background: "var(--navy)" }}>
+    <section id="về-chúng-tôi" style={{ padding: "120px 56px", background: "var(--navy)" }}>
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
         <div
           className="about-grid"
@@ -57,7 +57,7 @@ export default function About() {
                   marginBottom: "20px",
                 }}
               >
-                Our Story
+                Câu Chuyện Của Chúng Tôi
               </div>
 
               <h2
@@ -70,10 +70,10 @@ export default function About() {
                   marginBottom: "30px",
                 }}
               >
-                A Decade of
+                Một Thập Kỷ
                 <br />
                 <em style={{ fontStyle: "italic", color: "var(--blue-light)" }}>
-                  Refined Beauty
+                  Chăm Sóc Tận Tâm
                 </em>
               </h2>
 
@@ -87,9 +87,10 @@ export default function About() {
                   marginBottom: "20px",
                 }}
               >
-                Founded in 2012, GraceSalon was born from a simple belief: every person
-                deserves to feel extraordinary. Our team of internationally trained artists
-                brings together decades of expertise in hair, skin, and wellness.
+                Thành lập năm 2014, Grace Spa & Vật Lý Trị Liệu ra đời từ niềm tin rằng
+                mỗi người đều xứng đáng được chăm sóc sức khỏe toàn diện. Đội ngũ chuyên
+                gia của chúng tôi được đào tạo bài bản trong nước và quốc tế về vật lý trị liệu,
+                spa và y học cổ truyền.
               </p>
 
               <p
@@ -102,8 +103,8 @@ export default function About() {
                   marginBottom: "44px",
                 }}
               >
-                We use only the finest organic products, sourced from sustainable producers
-                who share our commitment to beauty without compromise.
+                Chúng tôi chỉ sử dụng sản phẩm hữu cơ cao cấp và thiết bị trị liệu hiện đại,
+                cam kết mang lại hiệu quả tốt nhất cho sức khỏe và vẻ đẹp của khách hàng.
               </p>
 
               <Button
@@ -113,7 +114,7 @@ export default function About() {
                   fontWeight: 500,
                 }}
               >
-                Discover Our Philosophy
+                Triết Lý Của Chúng Tôi
               </Button>
             </div>
           </FadeIn>

@@ -2,64 +2,64 @@ export const GALLERY = [
   {
     id: 1,
     bg: "linear-gradient(135deg, #1B3F72 0%, #2B6CB0 100%)",
-    label: "Balayage",
+    label: "Massage Trị Liệu",
     ratio: "4/3",
   },
   {
     id: 2,
     bg: "linear-gradient(135deg, #2B6CB0 0%, #CEE0F6 100%)",
-    label: "Bridal",
+    label: "Phục Hồi Chức Năng",
     ratio: "3/4",
   },
   {
     id: 3,
     bg: "linear-gradient(135deg, #0B1F3A 0%, #1B3F72 100%)",
-    label: "Facial",
+    label: "Chăm Sóc Da",
     ratio: "4/3",
   },
   {
     id: 4,
     bg: "linear-gradient(135deg, #3A7BD5 0%, #CEE0F6 100%)",
-    label: "Nail Art",
+    label: "Châm Cứu",
     ratio: "4/3",
   },
   {
     id: 5,
     bg: "linear-gradient(135deg, #1B3F72 0%, #4A90D9 100%)",
-    label: "Spa",
+    label: "Spa Thư Giãn",
     ratio: "3/4",
   },
   {
     id: 6,
     bg: "linear-gradient(135deg, #0B1F3A 0%, #2B6CB0 100%)",
-    label: "Color",
+    label: "Đá Nóng Trị Liệu",
     ratio: "4/3",
   },
 ];
 
 export const STATS = [
-  { value: "12+", label: "Years Experience" },
-  { value: "5k+", label: "Happy Clients" },
-  { value: "98%", label: "Satisfaction" },
+  { value: "10+", label: "Năm Kinh Nghiệm" },
+  { value: "3k+", label: "Khách Hàng" },
+  { value: "98%", label: "Hài Lòng" },
 ];
 
 export const ABOUT_STATS = [
-  { value: "12", label: "Years" },
-  { value: "5,000+", label: "Clients" },
-  { value: "15", label: "Experts" },
+  { value: "10", label: "Năm" },
+  { value: "3.000+", label: "Khách Hàng" },
+  { value: "12", label: "Chuyên Gia" },
 ];
 
 export const CONTACT_INFO = [
-  { icon: "📍", text: "123 Elegance Avenue, Downtown" },
-  { icon: "📞", text: "+1 (555) 123-4567" },
-  { icon: "✉", text: "hello@gracesalon.com" },
-  { icon: "🕐", text: "Mon – Sat: 9am – 8pm" },
+  { icon: "📍", text: "123 Đường Nguyễn Huệ, Quận 1, TP.HCM" },
+  { icon: "📞", text: "0901 234 567" },
+  { icon: "✉", text: "info@gracespa.vn" },
+  { icon: "🕐", text: "Thứ 2 – Thứ 7: 8:00 – 20:00" },
 ];
 
 export const OPENING_HOURS = [
-  { day: "Monday – Friday", hours: "9:00 AM – 8:00 PM" },
-  { day: "Saturday", hours: "9:00 AM – 6:00 PM" },
-  { day: "Sunday", hours: "Closed" },
+  { day: "Thứ 2 – Thứ 6", hours: "8:00 – 20:00" },
+  { day: "Thứ 7", hours: "8:00 – 18:00" },
+  { day: "Chủ Nhật", hours: "Nghỉ" },
 ];
 
-export const NAV_LINKS = ["services", "about", "gallery", "testimonials", "contact"];
+export const NAV_LINKS = ["dịch-vụ", "về-chúng-tôi", "hình-ảnh", "đánh-giá", "liên-hệ"];

@@ -26,7 +26,7 @@ export default function Footer() {
         onClick={() => scrollTo("home")}
       >
         GRACE
-        <span style={{ color: "var(--blue-light)", fontWeight: 400 }}>SALON</span>
+        <span style={{ color: "var(--blue-light)", fontWeight: 400 }}>SPA</span>
       </div>
 
       {/* Divider */}
@@ -56,7 +56,7 @@ export default function Footer() {
             onClick={() => scrollTo(s)}
             style={{ color: "rgba(206,224,246,0.3)" }}
           >
-            {s}
+            {s.replace(/-/g, " ")}
           </span>
         ))}
       </div>
@@ -71,7 +71,7 @@ export default function Footer() {
           letterSpacing:"1px",
         }}
       >
-        © {new Date().getFullYear()} GraceSalon. All rights reserved. Crafted with care.
+        © {new Date().getFullYear()} GraceSpa. Bảo lưu mọi quyền. Chăm sóc tận tâm.
       </p>
     </footer>
   );

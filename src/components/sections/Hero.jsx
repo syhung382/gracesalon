@@ -42,7 +42,7 @@ export default function Hero() {
             animation:    "fadeUp 1s ease 0.2s forwards",
           }}
         >
-          Luxury Hair & Spa Studio
+          Spa & Vật Lý Trị Liệu Cao Cấp
         </div>
 
         {/* Heading */}
@@ -58,10 +58,10 @@ export default function Hero() {
             animation:    "fadeUp 1s ease 0.4s forwards",
           }}
         >
-          Where Beauty
+          Phục Hồi &
           <br />
           <em style={{ fontStyle: "italic", color: "var(--blue-light)", fontWeight: 300 }}>
-            Finds Grace
+            Tái Tạo
           </em>
         </h1>
 
@@ -79,8 +79,8 @@ export default function Hero() {
             animation:    "fadeUp 1s ease 0.6s forwards",
           }}
         >
-          A sanctuary of beauty and wellness where every detail is curated for your
-          ultimate transformation.
+          Không gian chăm sóc sức khỏe toàn diện — kết hợp vật lý trị liệu hiện đại
+          và spa thư giãn để phục hồi cơ thể và tinh thần của bạn.
         </p>
 
         {/* Buttons */}
@@ -97,16 +97,16 @@ export default function Hero() {
         >
           <Button
             style={{ background: "#fff", color: "var(--navy)", padding: "17px 44px" }}
-            onClick={() => scrollTo("contact")}
+            onClick={() => scrollTo("liên-hệ")}
           >
-            Book Appointment
+            Đặt Lịch Ngay
           </Button>
           <Button
             variant="outline"
             style={{ color: "#fff", borderColor: "rgba(206,224,246,0.45)" }}
-            onClick={() => scrollTo("services")}
+            onClick={() => scrollTo("dịch-vụ")}
           >
-            Our Services
+            Dịch Vụ Của Chúng Tôi
           </Button>
         </div>
 

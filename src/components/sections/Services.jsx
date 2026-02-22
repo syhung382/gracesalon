@@ -51,12 +51,12 @@ function ServiceCard({ icon, title, desc, price, delay }) {
 
 export default function Services() {
   return (
-    <section id="services" style={{ padding: "120px 56px", background: "var(--offwhite)" }}>
+    <section id="dịch-vụ" style={{ padding: "120px 56px", background: "var(--offwhite)" }}>
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
         <SectionHeader
-          label="What We Offer"
-          title="Our  Services"
-          accent="Signature"
+          label="Dịch Vụ Của Chúng Tôi"
+          title="Liệu Trình  Đặc Trị"
+          accent="Đặc Trị"
         />
 
         <div

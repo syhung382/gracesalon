@@ -29,12 +29,12 @@ function GalleryItem({ bg, label, ratio, delay }) {
 
 export default function Gallery() {
   return (
-    <section id="gallery" style={{ padding: "120px 56px", background: "var(--white)" }}>
+    <section id="hình-ảnh" style={{ padding: "120px 56px", background: "var(--white)" }}>
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
         <SectionHeader
-          label="Portfolio"
-          title="Our  Work"
-          accent="Work"
+          label="Thư Viện Ảnh"
+          title="Không Gian  Của Chúng Tôi"
+          accent="Của Chúng Tôi"
         />
 
         <div

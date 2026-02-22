@@ -69,7 +69,7 @@ export default function Testimonials() {
 
   return (
     <section
-      id="testimonials"
+      id="đánh-giá"
       style={{ padding: "120px 56px", background: "var(--blue-mid)" }}
     >
       <div style={{ maxWidth: "760px", margin: "0 auto", textAlign: "center" }}>
@@ -84,7 +84,7 @@ export default function Testimonials() {
               marginBottom: "18px",
             }}
           >
-            Client Love
+            Khách Hàng Nói Gì
           </div>
           <h2
             style={{
@@ -95,8 +95,8 @@ export default function Testimonials() {
               marginBottom: "64px",
             }}
           >
-            What They{" "}
-            <em style={{ fontStyle: "italic", color: "var(--blue)" }}>Say</em>
+            Cảm Nhận{" "}
+            <em style={{ fontStyle: "italic", color: "var(--blue)" }}>Thật</em>
           </h2>
         </FadeIn>
 
