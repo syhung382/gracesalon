@@ -1,4 +1,4 @@
-# GraceSalon — Luxury Hair & Spa Landing Page
+# GraceSpa — Luxury Hair & Spa Landing Page
 
 React + Vite project với cấu trúc đầy đủ theo chuẩn production.
 
@@ -12,7 +12,7 @@ npm run dev
 ## 📁 Cấu trúc dự án
 
 ```
-gracesalon/
+GraceSpa/
 ├── index.html
 ├── vite.config.js
 ├── package.json
@@ -59,15 +59,15 @@ gracesalon/
 
 ## 🎨 Design Tokens (CSS Variables)
 
-| Token            | Value     | Dùng cho                    |
-|------------------|-----------|-----------------------------|
-| `--blue`         | `#2B6CB0` | Accent, icon, link          |
-| `--blue-dark`    | `#1B3F72` | Button primary, border hover|
-| `--navy`         | `#0B1F3A` | Text, dark sections         |
-| `--navy-deep`    | `#060F1E` | Footer background           |
-| `--blue-light`   | `#CEE0F6` | Highlight, italic accent    |
-| `--blue-mid`     | `#EBF4FF` | Testimonials background     |
-| `--offwhite`     | `#F7FAFF` | Services background         |
+| Token          | Value     | Dùng cho                     |
+| -------------- | --------- | ---------------------------- |
+| `--blue`       | `#2B6CB0` | Accent, icon, link           |
+| `--blue-dark`  | `#1B3F72` | Button primary, border hover |
+| `--navy`       | `#0B1F3A` | Text, dark sections          |
+| `--navy-deep`  | `#060F1E` | Footer background            |
+| `--blue-light` | `#CEE0F6` | Highlight, italic accent     |
+| `--blue-mid`   | `#EBF4FF` | Testimonials background      |
+| `--offwhite`   | `#F7FAFF` | Services background          |
 
 ## 📦 Thêm trang mới
 
